@@ -1,0 +1,65 @@
+import turtle
+
+# Set up the screen
+screen = turtle.Screen()
+screen.bgcolor("white")
+
+# Create a turtle object
+message_turtle = turtle.Turtle()
+message_turtle.shape("turtle")
+message_turtle.speed(10)
+
+# Write the message
+message_turtle.penup()
+message_turtle.goto(-300, 100)
+message_turtle.pendown()
+message_turtle.color("red")
+message_turtle.write("Happy Valentine’s Day, my love! ❤️", font=("Arial", 16, "bold"))
+
+message_turtle.penup()
+message_turtle.goto(-300, 50)
+message_turtle.pendown()
+message_turtle.color("pink")
+message_turtle.write("Every moment spent with you is a treasure,", font=("Arial", 16, "bold"))
+
+message_turtle.penup()
+message_turtle.goto(-300, 0)
+message_turtle.pendown()
+message_turtle.color("red")
+message_turtle.write("and I’m so lucky to have you in my life.", font=("Arial", 16, "bold"))
+
+message_turtle.penup()
+message_turtle.goto(-300, -50)
+message_turtle.pendown()
+message_turtle.color("pink")
+message_turtle.write("You fill my heart with so much happiness,", font=("Arial", 16, "bold"))
+
+message_turtle.penup()
+message_turtle.goto(-300, -100)
+message_turtle.pendown()
+message_turtle.color("red")
+message_turtle.write("and I can’t wait to create more beautiful memories together.", font=("Arial", 16, "bold"))
+
+message_turtle.penup()
+message_turtle.goto(-300, -150)
+message_turtle.pendown()
+message_turtle.color("pink")
+message_turtle.write("Thank you for being the incredible person you are,", font=("Arial", 16, "bold"))
+
+message_turtle.penup()
+message_turtle.goto(-300, -200)
+message_turtle.pendown()
+message_turtle.color("red")
+message_turtle.write("and for making my world brighter every single day.", font=("Arial", 16, "bold"))
+
+message_turtle.penup()
+message_turtle.goto(-300, -250)
+message_turtle.pendown()
+message_turtle.color("pink")
+message_turtle.write("I love you more than words can say. 💕", font=("Arial", 16, "bold"))
+
+# Hide the turtle and finish
+message_turtle.hideturtle()
+
+# Keep the window open
+turtle.done()
